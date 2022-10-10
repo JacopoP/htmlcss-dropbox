@@ -1,0 +1,17 @@
+#user-actions li:hover{
+    position: relative;
+}
+
+#user-actions li:hover .selecting-feedback{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    height: 3px;
+    border-radius: 3px;
+}
+
+.button-blue:hover{
+    opacity: 0.7;
+}
