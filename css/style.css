@@ -20,6 +20,11 @@ a{
     color: white;
 }
 
+h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
 /* navigation bar rules */
 #user-actions{
     display: flex;
@@ -95,17 +100,38 @@ header .button-blue{
 
 /* main rules */
 main{
+    margin-top: 130px;
     /* DEBUG */
-    background-color: red;
     height: 200vh;
 }
 
 .center-container{
     width: 50%;
     margin: 0 auto;
-    /* DEBUG */
-    background-color: violet;
-    height: 55%;
+}
+
+.fake-checkbox{
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+#check1{
+    border: 4px solid #0061FF;
+    border-radius: 50%;
+}
+
+#check2{
+    border: 2px solid #D1D1D4;
+    border-radius: 50%;
+}
+
+.fake-option{
+    display: inline-block;
+    line-height: 16px;
+    vertical-align: top;
+    margin-right: 30px;
+    font-size: 12px;
 }
 
 #customers{
