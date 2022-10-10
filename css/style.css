@@ -7,6 +7,7 @@
 /* general rules */
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 a{
@@ -64,17 +65,35 @@ a{
 header{
     margin-top: 60px;
     background-color: #B4D0E7;
-    padding: 0 15%;
+    padding: 60px 19% 1px;
     /* DEBUG */
     width: 100%;
-    height: 400px;
 }
 
-#debug-header{
-    height: 100%;
-    width: 100%;
+h1{
+    font-weight: 900;
+    font-size: 61px;
+    margin-bottom: 30px;
 }
 
+#jumbo{
+    float: right;
+    width: 66%;
+}
+
+header .button-blue{
+    display: inline-block;
+    padding: 7px 15px;
+    margin: 18px 0;
+}
+
+#arrow-down{
+    display: block;
+    font-size: 40px;
+    margin: 35px 0 4px;
+}
+
+/* main rules */
 main{
     /* DEBUG */
     background-color: red;
@@ -82,7 +101,7 @@ main{
 }
 
 .center-container{
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     /* DEBUG */
     background-color: violet;
