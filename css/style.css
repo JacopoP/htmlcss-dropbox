@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    /* DEBUG */
+    background-color: blue;
+}
+
+#user-actions{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* DEBUG */
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+}
+
+header{
+    margin-top: 100px;
+    background-color: #B4D0E7;
+    padding: 0 15%;
+    /* DEBUG */
+    width: 100%;
+    height: 400px;
+}
+
+#debug-header{
+    border: 5px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    /* DEBUG */
+    background-color: red;
+    height: 200vh;
+}
+
+.center-container{
+    width: 60%;
+    margin: 0 auto;
+    /* DEBUG */
+    background-color: violet;
+    height: 55%;
+}
+
+#customers{
+    /* DEBUG */
+    background-color: lightgray;
+    height: 20%;
+}
+
+#free-trial{
+    background-color: #B4D0E7;
+    /* DEBUG */
+    height: 10%;
+}
+
+#faq{
+    /* DEBUG */
+    height: 10%;
+    background-color: pink;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    /* DEBUG */
+    height: 300px;
+}
