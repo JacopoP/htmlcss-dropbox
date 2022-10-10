@@ -7,11 +7,13 @@
 /* general rules */
 body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
 }
 
-a{
+a:not(.link){
     text-decoration: none;
+}
+
+a:not(.link, .button-blue){
     color: inherit;
 }
 
@@ -71,8 +73,7 @@ header{
     margin-top: 60px;
     background-color: #B4D0E7;
     padding: 60px 19% 1px;
-    /* DEBUG */
-    width: 100%;
+    font-size: 14px;
 }
 
 h1{
@@ -101,6 +102,7 @@ header .button-blue{
 /* main rules */
 main{
     margin-top: 130px;
+    font-size: 12px;
     /* DEBUG */
     height: 200vh;
 }
@@ -108,6 +110,11 @@ main{
 .center-container{
     width: 50%;
     margin: 0 auto;
+}
+
+/* checbox rules */
+#fake-choice{
+    margin-bottom: 30px;
 }
 
 .fake-checkbox{
@@ -133,6 +140,98 @@ main{
     margin-right: 30px;
     font-size: 12px;
 }
+
+/* plans info rules */
+main .flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.plan-icon{
+    border: solid #D0D0D3;
+    border-width: 1px 1px 0;
+    text-align: center;
+    padding: 7px 0;
+}
+
+.plan{
+    border: 1px solid #D0D0D3;
+    padding: 20px 15px;
+    height: 100%;
+}
+
+.plan .more-center{
+    margin: 0 5px;
+}
+
+.flex-container .plan-col{
+    width: calc((100% - 50px) / 3);
+}
+
+.plan h3{
+    font-size: 20px;
+}
+
+.plan .plan-price{
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.plan .period{
+    color: #D0D0D3;
+    margin-bottom: 35px;
+}
+
+.plan .plan-info{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    margin: 15px 0;
+}
+
+.plan .button-blue{
+    display: block;
+    padding: 7px;
+    width: 100%;
+    text-align: center;
+    margin: 35px 0 20px;
+}
+
+.plan .short-line{
+    width: 20%;
+    height: 1px;
+    background-color: #D0D0D3;
+    margin: 25px 0 30px;
+}
+
+.list-title{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.plan li{
+    list-style: none;
+    margin: 15px 0;
+    display: flex;
+    gap: 5px;
+} 
+
+.plan li span{
+    color:#0061FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 #customers{
     /* DEBUG */
