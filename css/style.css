@@ -293,10 +293,6 @@ main .flex-container{
 }
 
 /* slideshow rules */
-#customers{
-    display: flex;
-}
-
 #customers > *{
     width: calc(100% / 3);
 }
@@ -368,18 +364,48 @@ main .flex-container{
     background-color: #FFD830;
 }
 
-
-
+/* free trial section rules */
 #free-trial{
     background-color: #B4D0E7;
-    /* DEBUG */
-    height: 250px;
+    padding: 100px 25%;
+    align-items: flex-start;
+    font-size: 13px;
 }
 
+#free-trial h2{
+    margin: 0;
+    color: #61082B;
+    width: 51%;
+}
+
+#free-trial .button-white{
+    margin-top: 10px;
+    padding: 8px 35px;
+    border: none;
+}
+
+/* faq rules */
 #faq{
-    /* DEBUG */
-    height: 300px;
-    background-color: pink;
+    margin: 100px auto;
+    border-bottom: 1px solid #000;
+}
+
+.q-a{
+    border-top: 1px solid #000;
+    padding: 25px 0;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+}
+
+.open-ans{
+    margin-right: 30px;
+}
+
+.answer{
+    display: none;
 }
 
 footer{

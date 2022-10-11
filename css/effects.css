@@ -15,3 +15,8 @@
 .button-white:hover{
     filter: invert(.1);
 }
+
+.q-a:hover .answer{
+    display: block;
+    margin-top: 15px;
+}
