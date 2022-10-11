@@ -115,7 +115,6 @@ header .button-blue{
 main{
     margin-top: 130px;
     font-size: 12px;
-    min-height: 200vh;
 }
 
 .center-container{
@@ -240,6 +239,7 @@ main .flex-container{
     padding: 7px 0;
 }
 
+/* section 2 main rules */
 #partner{
     margin: 100px 0;
     font-size: 13px;
@@ -266,7 +266,31 @@ main .flex-container{
     padding: 7px 10px;
 }
 
+/* Dropbox Business features rules */
+#dropbox-business .flex-container{
+    flex-wrap: wrap;
+    row-gap: 40px;
+    font-size: 13px;
+    margin-bottom: 100px;
+}
 
+.business-attribute{
+    width: calc((100% - 50px) / 3);
+}
+
+.business-attribute h3{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.business-attribute img{
+    width: 100%;
+}
+
+.center-container > .link{
+    display: block;
+    margin-bottom: 100px;
+}
 
 
 
