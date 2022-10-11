@@ -77,6 +77,18 @@ h2{
     margin: 0 15px;
 }
 
+#user-actions li .dropdown{
+    min-width: 100%;
+    width: max-content;
+    display: none;
+}
+
+#user-actions li .dropdown-el{
+    margin: 10px;
+    line-height: normal;
+    display: block;
+}
+
 #user-actions li a{
     /* to center nav elements, same value as the nav height */
     line-height: 60px;
@@ -429,7 +441,7 @@ footer ul li:first-child{
 footer .short-line{
     background-color: #fff;
     width: 10%;
-    margin: 70px 0 30px;
+    margin: 70px 0 35px;
 }
 
 #select-language{
