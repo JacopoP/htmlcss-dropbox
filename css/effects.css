@@ -11,3 +11,7 @@
 .button-blue:hover{
     opacity: 0.7;
 }
+
+.button-white:hover{
+    filter: invert(.1);
+}
