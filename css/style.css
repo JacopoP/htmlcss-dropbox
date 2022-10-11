@@ -18,6 +18,7 @@ a:not(.link, .button-blue){
 }
 
 .button-blue{
+    display: inline-block;
     background-color: #0061FF;
     color: white;
 }
@@ -88,7 +89,6 @@ h1{
 }
 
 header .button-blue{
-    display: inline-block;
     padding: 7px 15px;
     margin: 18px 0;
 }
@@ -103,8 +103,7 @@ header .button-blue{
 main{
     margin-top: 130px;
     font-size: 12px;
-    /* DEBUG */
-    height: 200vh;
+    min-height: 200vh;
 }
 
 .center-container{
@@ -113,14 +112,11 @@ main{
 }
 
 /* checbox rules */
-#fake-choice{
-    margin-bottom: 30px;
-}
-
 .fake-checkbox{
     display: inline-block;
     height: 16px;
     width: 16px;
+    margin-bottom: 30px;
 }
 
 #check1{
@@ -148,6 +144,11 @@ main .flex-container{
     flex-wrap: wrap;
 }
 
+
+.flex-container .plan-col{
+    width: calc((100% - 50px) / 3);
+}
+
 .plan-icon{
     border: solid #D0D0D3;
     border-width: 1px 1px 0;
@@ -165,10 +166,6 @@ main .flex-container{
     margin: 0 5px;
 }
 
-.flex-container .plan-col{
-    width: calc((100% - 50px) / 3);
-}
-
 .plan h3{
     font-size: 20px;
 }
@@ -183,15 +180,14 @@ main .flex-container{
     margin-bottom: 35px;
 }
 
-.plan .plan-info{
+/* .plan .plan-info{
     display: flex;
     justify-content: flex-start;
     gap: 5px;
     margin: 15px 0;
-}
+} */
 
 .plan .button-blue{
-    display: block;
     padding: 7px;
     width: 100%;
     text-align: center;
@@ -217,7 +213,7 @@ main .flex-container{
     gap: 5px;
 } 
 
-.plan li span{
+.plan li .blue-check{
     color:#0061FF;
 }
 
