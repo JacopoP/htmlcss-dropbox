@@ -40,6 +40,11 @@ h2{
     margin-bottom: 40px;
 }
 
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* navigation bar rules */
 #user-actions{
     display: flex;
@@ -149,12 +154,6 @@ main{
 }
 
 /* plans info rules */
-main .flex-container{
-    display: flex;
-    justify-content: space-between;
-}
-
-
 .flex-container .plan-col{
     width: calc((100% - 50px) / 3);
     margin-bottom: 25px;
@@ -408,9 +407,31 @@ main .flex-container{
     display: none;
 }
 
+/* footer rules */
 footer{
     background-color: #000;
     color: #fff;
-    /* DEBUG */
-    height: 300px;
+    padding: 80px 20% 40px;
+    font-size: 12px;
+}
+
+footer ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+footer ul li:first-child{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer .short-line{
+    background-color: #fff;
+    width: 10%;
+    margin: 70px 0 30px;
+}
+
+#select-language{
+    color: #999999;
 }
