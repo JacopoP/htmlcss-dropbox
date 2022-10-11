@@ -200,7 +200,7 @@ main .flex-container{
     margin: 35px 0 20px;
 }
 
-.plan .short-line{
+.short-line{
     width: 20%;
     height: 1px;
     background-color: #D0D0D3;
@@ -292,20 +292,83 @@ main .flex-container{
     margin-bottom: 100px;
 }
 
-
-
-
-
-
-
-
-
-
+/* slideshow rules */
 #customers{
-    /* DEBUG */
-    background-color: lightgray;
-    height: 500px;
+    display: flex;
 }
+
+#customers > *{
+    width: calc(100% / 3);
+}
+
+.customers-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.customer-square{
+    width: 50%;
+    padding: 0 12%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+}
+
+.customer-square img{
+    width: 100%;
+    filter: invert(1);
+}
+
+#slideshow{
+    background-color: #F5F5F5;
+    padding: 35px;
+    font-size: 13px;
+}
+
+#slideshow img{
+    width: 50%;
+}
+
+#slideshow p{
+    margin-bottom: 40px;
+}
+
+/* client cards */
+#designit{
+    background-color: #A2D39B;
+    border: #D1E9CD 10px solid;
+    padding: 0 calc(12% - 10px);
+}
+
+#asu{
+    background-color: #61082B;
+}
+
+#uf{
+    background-color: #0093CE;
+}
+
+#topps{
+    background-color: #FF1C1C;
+}
+
+#wbr{
+    background-color: #D5001F;
+}
+
+#hearst{
+    background-color: #B4D0E7;
+}
+
+#lp{
+    background-color: #0D2481;
+}
+
+#cco{
+    background-color: #FFD830;
+}
+
+
 
 #free-trial{
     background-color: #B4D0E7;
