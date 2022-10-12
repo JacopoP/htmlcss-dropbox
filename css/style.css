@@ -56,7 +56,12 @@ h2{
     height: 60px;
     padding: 0 1%;
     background-color: #fff;
-    font-size: 15px;
+    font-size: 14px;
+}
+
+#user-actions img{
+    max-width: 100px;
+    margin: 0 10px;
 }
 
 #user-actions .flex-part{
@@ -77,6 +82,11 @@ h2{
     margin: 0 15px;
 }
 
+#user-actions li a{
+    /* to center nav elements, same value as the nav height */
+    line-height: 60px;
+}
+
 #user-actions li .dropdown{
     min-width: 100%;
     width: max-content;
@@ -89,11 +99,6 @@ h2{
     display: block;
 }
 
-#user-actions li a{
-    /* to center nav elements, same value as the nav height */
-    line-height: 60px;
-}
-
 #user-actions .button-blue{
     padding: 5px 13px;
 }
@@ -103,7 +108,7 @@ header{
     margin-top: 60px;
     background-color: #B4D0E7;
     padding: 60px 19% 1px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 h1{
@@ -114,7 +119,7 @@ h1{
 
 #jumbo{
     float: right;
-    width: 66%;
+    width: 67%;
 }
 
 header .button-blue{
@@ -125,13 +130,13 @@ header .button-blue{
 #arrow-down{
     display: block;
     font-size: 40px;
-    margin: 35px 0 4px;
+    margin: 35px 0 0;
 }
 
 /* main rules */
 main{
     margin-top: 130px;
-    font-size: 12px;
+    font-size: 12.6px;
 }
 
 .center-container{
@@ -140,11 +145,15 @@ main{
 }
 
 /* checbox rules */
+#anchor{
+    margin-bottom: 45px;
+}
+
 .fake-checkbox{
     display: inline-block;
     height: 16px;
     width: 16px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 #check1{
@@ -181,6 +190,7 @@ main{
 .plan{
     border: 1px solid #D0D0D3;
     padding: 20px 15px;
+    font-size: 12px;
 }
 
 .plan-col .plan{
@@ -208,18 +218,18 @@ main{
 .plan-col .plan .button-blue{
     padding: 7px;
     width: 100%;
-    margin: 35px 0 20px;
+    margin: 25px 0 20px;
 }
 
 .short-line{
     width: 20%;
     height: 1px;
     background-color: #D0D0D3;
-    margin: 25px 0 30px;
+    margin: 32px 0 37px;
 }
 
 .plan-col .bold-text{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .plan li{
@@ -252,8 +262,8 @@ main{
 
 /* section 2 main rules */
 #partner{
-    margin: 100px 0;
-    font-size: 13px;
+    margin: 120px 0;
+    font-size: 12.9px;
 }
 
 #partner img{
@@ -274,15 +284,15 @@ main{
 }
 
 #partner .button-white{
-    padding: 7px 10px;
+    padding: 7px 11px;
 }
 
 /* Dropbox Business features rules */
 #dropbox-business .flex-container{
     flex-wrap: wrap;
-    row-gap: 40px;
-    font-size: 13px;
-    margin-bottom: 100px;
+    row-gap: 50px;
+    font-size: 12.6px;
+    margin-bottom: 130px;
 }
 
 .business-attribute{
@@ -300,10 +310,14 @@ main{
 
 .center-container > .link{
     display: block;
-    margin-bottom: 100px;
+    margin-bottom: 110px;
 }
 
 /* slideshow rules */
+#customers.flex-container{
+    align-items: flex-start;
+}
+
 #customers > *{
     width: calc(100% / 3);
 }
@@ -329,7 +343,8 @@ main{
 #slideshow{
     background-color: #F5F5F5;
     padding: 35px;
-    font-size: 13px;
+    overflow-y: auto;
+    aspect-ratio: 1/1;
 }
 
 #slideshow img{
@@ -378,9 +393,8 @@ main{
 /* free trial section rules */
 #free-trial{
     background-color: #B4D0E7;
-    padding: 100px 25%;
+    padding: 90px 25%;
     align-items: flex-start;
-    font-size: 13px;
 }
 
 #free-trial h2{
@@ -401,9 +415,13 @@ main{
     border-bottom: 1px solid #000;
 }
 
+#faq h2{
+    margin-bottom: 50px;
+}
+
 .q-a{
     border-top: 1px solid #000;
-    padding: 25px 0;
+    padding: 30px 0;
 }
 
 .question{
@@ -429,11 +447,11 @@ footer{
 
 footer ul li{
     list-style: none;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 footer ul li:first-child{
-    margin-bottom: 20px;
+    margin-bottom: 23px;
     font-size: 20px;
     font-weight: bold;
 }
