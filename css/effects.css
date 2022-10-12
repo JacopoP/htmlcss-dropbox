@@ -28,5 +28,4 @@
 #user-actions li:hover .dropdown{
     display: block;
     position: absolute;
-    background-color: #fff;
 }

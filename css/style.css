@@ -37,7 +37,10 @@ a:not(.link, .button-blue){
 
 h2{
     font-size: 32px;
-    margin-bottom: 40px;
+}
+
+h3{
+    font-size: 20px;
 }
 
 .flex-container{
@@ -47,8 +50,6 @@ h2{
 
 /* navigation bar rules */
 #user-actions{
-    display: flex;
-    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
@@ -91,6 +92,7 @@ h2{
     min-width: 100%;
     width: max-content;
     display: none;
+    background-color: #fff;
 }
 
 #user-actions li .dropdown-el{
@@ -144,8 +146,12 @@ main{
     margin: 0 auto;
 }
 
+main h2{
+    margin-bottom: 40px;
+}
+
 /* checbox rules */
-#anchor{
+h2#anchor{
     margin-bottom: 45px;
 }
 
@@ -154,16 +160,15 @@ main{
     height: 16px;
     width: 16px;
     margin-bottom: 40px;
+    border-radius: 50%;
 }
 
 #check1{
     border: 4px solid #0061FF;
-    border-radius: 50%;
 }
 
 #check2{
     border: 2px solid #D1D1D4;
-    border-radius: 50%;
 }
 
 .fake-option{
@@ -175,7 +180,7 @@ main{
 }
 
 /* plans info rules */
-.flex-container .plan-col{
+.plan-col, .business-attribute{
     width: calc((100% - 50px) / 3);
     margin-bottom: 25px;
 }
@@ -199,10 +204,6 @@ main{
 
 .plan .more-center{
     margin: 0 5px;
-}
-
-.plan h3{
-    font-size: 20px;
 }
 
 .plan .plan-price{
@@ -275,10 +276,6 @@ main{
     width: 32%;
 }
 
-#partner h3{
-    font-size: 20px;
-}
-
 #partner p{
     margin: 15px 0 20px;
 }
@@ -295,17 +292,12 @@ main{
     margin-bottom: 130px;
 }
 
-.business-attribute{
-    width: calc((100% - 50px) / 3);
-}
-
-.business-attribute h3{
-    font-size: 20px;
+.business-attribute h3{    
     margin-bottom: 25px;
 }
 
 .business-attribute img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .center-container > .link{
@@ -314,10 +306,6 @@ main{
 }
 
 /* slideshow rules */
-#customers.flex-container{
-    align-items: flex-start;
-}
-
 #customers > *{
     width: calc(100% / 3);
 }
@@ -452,7 +440,7 @@ footer ul li{
 
 footer ul li:first-child{
     margin-bottom: 23px;
-    font-size: 20px;
+    font-size: 20px;    
     font-weight: bold;
 }
 
